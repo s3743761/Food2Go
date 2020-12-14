@@ -23,7 +23,7 @@ cd Food2Go
 
 ## Features
 
-Here are the features that show the E-commerce demo application in use.
+Here are the features that show the Food2Go application in use.
 
 **Home Page**
 
