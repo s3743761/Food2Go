@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Inj-gz-F0U">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Student Profle-->
+        <scene sceneID="clq-SH-Tdb">
+            <objects>
+                <viewController id="5Vb-Zo-LIy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NMX-Gw-zah">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CFN-rP-yk9">
+                                <rect key="frame" x="20" y="122" width="374" height="277"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="David Nguyen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jLr-Wt-966">
+                                        <rect key="frame" x="30" y="33" width="107" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Liam Hector" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nhg-H9-diE">
+                                        <rect key="frame" x="30" y="119" width="94" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prabhav Mohit Mehra" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dio-Sv-Hrx">
+                                        <rect key="frame" x="30" y="216" width="164" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="s3422643" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="knR-O2-csB">
+                                        <rect key="frame" x="249" y="32" width="81" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="s3720431" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Abq-zB-pqN">
+                                        <rect key="frame" x="249" y="118" width="77" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="s3743761" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2sY-zT-BHd">
+                                        <rect key="frame" x="249" y="215" width="75" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.75178593400000004" green="0.84082311389999997" blue="0.87529581789999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="knR-O2-csB" firstAttribute="leading" secondItem="Abq-zB-pqN" secondAttribute="leading" id="5wu-Yj-OXJ"/>
+                                    <constraint firstItem="Dio-Sv-Hrx" firstAttribute="top" secondItem="nhg-H9-diE" secondAttribute="bottom" constant="76" id="6XT-Xj-dyF"/>
+                                    <constraint firstItem="nhg-H9-diE" firstAttribute="top" secondItem="jLr-Wt-966" secondAttribute="bottom" constant="65" id="75E-1K-JgM"/>
+                                    <constraint firstItem="Abq-zB-pqN" firstAttribute="top" secondItem="knR-O2-csB" secondAttribute="bottom" constant="65" id="98v-LZ-9Cq"/>
+                                    <constraint firstItem="2sY-zT-BHd" firstAttribute="top" secondItem="Abq-zB-pqN" secondAttribute="bottom" constant="76" id="Mce-st-FM3"/>
+                                    <constraint firstItem="Abq-zB-pqN" firstAttribute="leading" secondItem="2sY-zT-BHd" secondAttribute="leading" id="Pbd-1m-N4K"/>
+                                    <constraint firstItem="nhg-H9-diE" firstAttribute="leading" secondItem="Dio-Sv-Hrx" secondAttribute="leading" id="URx-3Y-dKF"/>
+                                    <constraint firstItem="2sY-zT-BHd" firstAttribute="leading" secondItem="Dio-Sv-Hrx" secondAttribute="trailing" constant="55" id="X7f-wE-wlS"/>
+                                    <constraint firstItem="jLr-Wt-966" firstAttribute="leading" secondItem="CFN-rP-yk9" secondAttribute="leading" constant="30" id="ZFm-Uh-l5M"/>
+                                    <constraint firstItem="jLr-Wt-966" firstAttribute="leading" secondItem="nhg-H9-diE" secondAttribute="leading" id="kB0-Mo-Df2"/>
+                                    <constraint firstItem="jLr-Wt-966" firstAttribute="top" secondItem="CFN-rP-yk9" secondAttribute="top" constant="33" id="lRY-wS-s41"/>
+                                    <constraint firstItem="knR-O2-csB" firstAttribute="top" secondItem="CFN-rP-yk9" secondAttribute="top" constant="32" id="vFN-41-vWa"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.28969743850000002" green="0.43418592210000001" blue="0.64542788269999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="19W-sO-dTV" firstAttribute="bottom" secondItem="CFN-rP-yk9" secondAttribute="bottom" constant="414" id="3Pv-ov-XdW"/>
+                            <constraint firstItem="CFN-rP-yk9" firstAttribute="trailing" secondItem="NMX-Gw-zah" secondAttribute="trailingMargin" id="CyC-hP-d0O"/>
+                            <constraint firstItem="CFN-rP-yk9" firstAttribute="leading" secondItem="NMX-Gw-zah" secondAttribute="leadingMargin" id="Jap-5s-viC"/>
+                            <constraint firstItem="CFN-rP-yk9" firstAttribute="top" secondItem="19W-sO-dTV" secondAttribute="top" constant="34" id="cIy-5w-KdA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="19W-sO-dTV"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Student Profle" id="igo-XA-fsc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p5w-gf-rQ9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="986.95652173913049" y="56.919642857142854"/>
+        </scene>
+        <!--Students-->
+        <scene sceneID="bKK-tG-L9F">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Inj-gz-F0U" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Students" image="Students" id="qks-Ya-uO5"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="D7c-Mu-q6A">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="5Vb-Zo-LIy" kind="relationship" relationship="rootViewController" id="khy-8y-yAS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SQO-86-nI2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="76.811594202898561" y="56.919642857142854"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Students" width="32" height="32"/>
+    </resources>
+</document>
