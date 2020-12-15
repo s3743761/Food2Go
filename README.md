@@ -22,7 +22,7 @@ cd Food2Go
 
 ## Images Of the App
 
-![HomeScreen](\Images\home.png)
+![Homescreen](\Images\home.png)
 
 ## Features
 
