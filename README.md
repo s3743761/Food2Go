@@ -20,9 +20,12 @@ cd Food2Go
 
 - Run the application```Food2Go```
 
-## Images Of the App
 
 ![Homescreen](/Images/home.png)
+![detail](/Images/detail.png)
+![explore](/Images/explore.png)
+![profile](/Images/profile.png)
+![favourite](/Images/favourite.png)
 
 ## Features
 
